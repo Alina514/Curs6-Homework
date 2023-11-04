@@ -5,7 +5,7 @@ public class Bottle {
     private Integer availableLiquid;
     private boolean isOpen;
 
-    public Bottle(Integer totalCapacity, Integer availableLiquid, boolean open) {
+    public Bottle(Integer totalCapacity, Integer availableLiquid, boolean isOpen) {
         this.totalCapacity = totalCapacity;
         this.availableLiquid = 0;
         this.isOpen = isOpen;
